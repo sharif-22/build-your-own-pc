@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap - Build your own PC Landing page</title>
+
+    <!-- Bootstrap CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="./assets/styles/style.css" />
+  </head>
+  <body>
+    <!-- nav  -->
+    <nav class="navbar container-fluid navbar-expand-lg py-3 bg-warning">
+      <div class="container">
+        <!-- logo  -->
+        <a
+          class="f-f-bebas__neue navbar-brand ps-2 border border-dark rounded fs-3 h5"
+          href="/"
+          >PC
+          <span class="text-bg-dark py-1 px-2 ms-1 rounded-end"
+            >Builder</span
+          ></a
+        >
+        <!-- logo  -->
+
+        <!-- Hammberger button  -->
+        <button
+          class="navbar-toggler border-0"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon border-0"></span>
+        </button>
+        <!-- Hammberger button  -->
+
+        <!-- nav links  -->
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNavDropdown"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item me-5">
+              <a
+                class="nav-link fs-5 p-1 fw-semibold"
+                aria-current="page"
+                href="/"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item me-5">
+              <a class="nav-link fs-5 p-1 fw-semibold" href="#">Pricing</a>
+            </li>
+            <!-- drop down  -->
+            <li class="nav-item me-5 dropdown">
+              <a
+                class="nav-link fs-5 p-1 fw-semibold dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Components Available Now
+              </a>
+
+              <!-- drop down list items   -->
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="#">Intel Motherboards </a>
+                </li>
+                <li><a class="dropdown-item" href="#">AMD Motherboards</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Nvedia Graphic Cards </a>
+                </li>
+              </ul>
+              <!-- drop down list items   -->
+            </li>
+            <!-- drop down  -->
+          </ul>
+        </div>
+        <!-- nav links  -->
+      </div>
+    </nav>
+    <!-- nav  -->
+    <main class="container-fluid g-0">
+      <!-- hero section  -->
+      <div class="container-fluid bg-body-secondary">
+        <div class="container border-bottom p-lg-5 p-md-1 py-5 px-2">
+          <div
+            class="d-flex align-content-center flex-lg-row flex-column-reverse"
+          >
+            <!-- hero text  -->
+            <div class="hero-text d-flex flex-column justify-content-center">
+              <h1 class="f-f-bebas__neue display-1">
+                Get Your Perfect PC Today!
+              </h1>
+              <p class="text-secondary fs-5">
+                Choose from Our Pre-Built Selection or Build Your Own with Your
+                PC!
+              </p>
+              <!-- action btns  -->
+              <div class="action-btns py-3 py-sm-1">
+                <a
+                  href="#"
+                  class="btn m-2 fw-semibold fs-5 border bg-body-tertiary"
+                  >Pre-built</a
+                >
+                <a
+                  href="#"
+                  class="btn me-4 fw-semibold fs-5 border text-bg-dark"
+                  >Build it your self</a
+                >
+              </div>
+              <!-- action btns  -->
+            </div>
+            <!-- hero text  -->
+
+            <!-- hero image  -->
+            <div class="hero-image">
+              <img
+                src="./assets/images/build_from_scratch.png"
+                alt="Pc building image "
+                width="100%"
+              />
+            </div>
+            <!-- hero image  -->
+          </div>
+        </div>
+      </div>
+      <!-- hero section  -->
+      <!-- components Cards  -->
+      <div class="py-5 px-2 plg-5 bg-primary"></div>
+      <!-- components Cards  -->
+    </main>
+    <!-- Bootstrap CDN -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

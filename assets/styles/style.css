@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@400;500;700&display=swap");
+
+/* font family */
+.f-f-roboto {
+  font-family: "Roboto", sans-serif;
+}
+
+.f-f-bebas__neue {
+  font-family: "Bebas Neue", sans-serif !important;
+}
+
+/* Bootstrap Modification  */
+.nav-link:hover {
+  background-color: #ffd207c6;
+  border-radius: 5px;
+}
