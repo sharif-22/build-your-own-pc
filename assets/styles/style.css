@@ -9,6 +9,12 @@
   font-family: "Bebas Neue", sans-serif !important;
 }
 
+img {
+  object-fit: contain;
+}
+.pointer {
+  cursor: pointer;
+}
 /* Bootstrap Modification  */
 .nav-link:hover {
   background-color: #ffd207c6;
